@@ -3,15 +3,12 @@
 }
 
 .contacts__name{
-    font-family: 'Gilroy-Bold';
     font-weight: 700;
-font-size: 80px;
-line-height: 1.05;
-color: #13171D;
-text-align: center;
-@media screen and (max-width:767px) {
-    font-size: 26px;
-}
+    font-size: 56px;
+    line-height: 1;
+    color: #13171D;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .contacts__list{
