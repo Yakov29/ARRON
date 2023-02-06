@@ -1,0 +1,47 @@
+.can{
+    padding-top: 138px;
+}
+
+.can__list{
+    display: flex;
+    gap: 99px;
+    @media screen and (max-width:1199px) {
+        display: block;
+    }
+}
+
+.can__item{
+    width: 364px;
+    @media screen and (max-width:1199px) {
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+.can__name{
+    font-family: 'Gilroy-Bold';
+    font-weight: 600;
+font-size: 20px;
+line-height: 1.20;
+color: #13171D;
+margin-top: 24px;
+}
+
+.can__description{
+    font-family: 'Gilroy-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height:1.33;
+    color: #444444;
+    margin-top: 16px;
+}
+
+.can__img{
+    @media screen and (max-width:1199px) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

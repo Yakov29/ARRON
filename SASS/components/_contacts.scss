@@ -1,0 +1,22 @@
+.contacts{
+    padding-bottom: 167px;
+}
+
+.contacts__name{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1;
+    color: #13171D;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contacts__list{
+    display: flex;
+    gap: 71px;
+}
+
+footer{
+    background-image: url(../images/Map.jpg);
+height: 350px;
+}

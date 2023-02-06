@@ -1,0 +1,24 @@
+.company{
+    padding-top: 140px;
+}
+
+.company__name{
+    font-family: 'Gilroy-Bold';
+    font-weight: 700;
+font-size: 80px;
+line-height: 1.05;
+color: #13171D;
+text-align: center;
+@media screen and (max-width:767px) {
+    font-size: 26px;
+}
+}
+
+.company__description{
+    font-weight: 400;
+font-size: 24px;
+line-height: 1.25;
+color: #444444;
+text-align: center;
+margin-top: 24px;
+}

@@ -1,0 +1,48 @@
+.hero{
+    padding-top: 290px;
+}
+
+h1{
+    font-family: 'Gilroy-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 110px;
+line-height: 0.90;
+letter-spacing: -0.01em;
+color: #13171D;
+text-align: center;
+@media screen and (max-width:767px) {
+    font-size: 32px;
+}
+}
+.hero__description{
+    font-family: 'Gilroy-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 1.41;
+letter-spacing: -0.01em;
+color: #444444;
+text-align: center;
+margin-top: 20px;
+}
+
+.hero__button{
+    display: block;
+    width: 284px;
+height: 64px;
+background: #E2001A;
+border-radius: 15px;
+border: none;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: -0.01em;
+color: #FFFFFF;
+margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+@media screen and (max-width:767px) {
+    width: 100%;
+}
+}

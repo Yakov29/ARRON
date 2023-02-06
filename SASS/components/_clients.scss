@@ -1,0 +1,30 @@
+.clients{
+    padding-top: 121px;
+    padding-bottom: 120px;
+}
+
+.clients__name{
+    font-weight: 700;
+font-size: 56px;
+line-height: 1;
+color: #13171D;
+text-align: center;
+@media screen and (max-width:767px) {
+    font-size: 26px;
+}
+}
+
+.clients__list{
+    display: flex;
+    gap: 30px;
+    margin-top: 48px;
+    @media screen and (max-width:767px) {
+        text-align: center;
+    }
+}
+
+.clients__item{
+    @media screen and (max-width:767px) {
+        margin-bottom: 10px;
+    }
+}
